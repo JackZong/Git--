@@ -1,7 +1,13 @@
-# Git--Common-problems-and-solutions.
-Git 常见问题与解决办法
-1.git-fatal the-remote-end-hung-up-unexpectedly
-解决办法：
+# Git 常见问题与解决办法
+
+### 1. packet_write_wait connection to xx.xx.xx.xx Broken pipe   
+### s：
+  找到git安装的目录/etc/ssh，打开ssh_config文件
+  ```
   sudo vim /etc/ssh/ssh_config 
+  ```
+  在其中修改（或者添加）
+  ```
   Host *
   ServerAliveInterval 60
+  ```
