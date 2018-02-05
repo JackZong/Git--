@@ -9,5 +9,5 @@
   在其中修改（或者添加）
   ```
   Host *
-  ServerAliveInterval 60
+  ServerAliveInterval 120
   ```
