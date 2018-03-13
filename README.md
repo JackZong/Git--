@@ -12,7 +12,7 @@
   Host *
   ServerAliveInterval 120
   ```
-### 如何撤销已 commit 的代码？
+### 2. 如何撤销已 commit 的代码？
 ### s：
 ```
   git log //查看节点
