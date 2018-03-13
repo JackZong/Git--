@@ -12,3 +12,9 @@
   Host *
   ServerAliveInterval 120
   ```
+### 如何撤销已 commit 的代码？
+### s：
+```
+  git log //查看节点
+  git reset commit_id //回退到上一个提交的节点
+```
