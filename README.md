@@ -18,3 +18,8 @@
   git log //查看节点
   git reset commit_id //回退到上一个提交的节点
 ```
+### 3. git 误操作 git reset 强制回滚，恢复 commit 方法
+### s:
+```
+  git reflog //git reflog 会记录所有HEAD的历史
+  git reset --hard // 回滚reset
