@@ -23,3 +23,13 @@
 ```
   git reflog //git reflog 会记录所有HEAD的历史
   git reset --hard // 回滚reset
+```
+### 4. 如何撤销 push
+### s:
+1. 利用git reset 先在本地回退到自己想要的版本
+2. 利用 git push origin <branch> --force 强制更新
+```
+  git log
+  git reset <commit>
+  git push origin <branch> --force
+```
