@@ -33,3 +33,11 @@
   git reset <commit>
   git push origin <branch> --force
 ```
+### 5. 添加远程仓库作为本仓库的上游
+### s:  
+  ```
+  git remote add <alias> <upstream git url> 
+  // when you set alias you can fetch the upstream code use alias,just like as flow
+  git remote add jackzong <upstream git url>
+  git pull jackzong <branch>
+  ```
