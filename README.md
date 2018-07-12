@@ -41,3 +41,15 @@
   git remote add jackzong <upstream git url>
   git pull jackzong <branch>
   ```
+### 6. rebase参数的使用和作用
+### s:
+  ```
+  git pull <alias> <branch> --rebase
+  作用：
+  使用merge合并
+        D--------E  
+     /          \
+A---B---C---F----G   master, origin/master
+  使用rebase
+  A---B---C---F---D'---E'   master, origin/master
+  ```
