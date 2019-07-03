@@ -54,6 +54,10 @@ A---B---C---F----G   master, origin/master
   A---B---C---F---D'---E'   master, origin/master
   ```
 ### 7. git过滤匹配包含指定字段的branch
+ ```
   git branch --list "*outlook*"
+ ```
 ### 8. git 删除指定的一些branch
+  ```
   git branch -D/-d `git branch --list "*outlook*"` //删除全部包含outlook关键字的branch
+  ```
